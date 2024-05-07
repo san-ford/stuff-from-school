@@ -1,3 +1,5 @@
+// Reference for menu building and file I/O
+
 // This program allows a user to choose a few options from a menu.
 // It uses text files and 2D arrays to create custom or random data tables,
 // or display, sort, and search data tables.
