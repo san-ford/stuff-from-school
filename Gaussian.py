@@ -1,4 +1,12 @@
 #------------------------------------------------------------------------------
+#  Description
+#------------------------------------------------------------------------------
+
+# Takes the average of a user-defined number of random numbers,
+# then plots several averages (the number of which is also defined by the user)
+# on a histogram. A Gaussian distribution is then fit to the plot.
+
+#------------------------------------------------------------------------------
 #  Imports
 #------------------------------------------------------------------------------
 
@@ -11,6 +19,7 @@ from matplotlib import pyplot as plt
 #------------------------------------------------------------------------------
 
 n = 40  # number of random numbers to average
+m = 100  # number of averages to graph
 
 #------------------------------------------------------------------------------
 #  Function definitions
@@ -38,7 +47,7 @@ def average():
 
 # make a list of averages
 avgNums = []
-for j in range(100):
+for j in range(m):
     avgNums.append(average())
 # end for
 
